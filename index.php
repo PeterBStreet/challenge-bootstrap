@@ -14,24 +14,15 @@
 		<!-- Here is the required bootstrap meta tags (taken from class materials)-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Bootstrap CSS (taken from class materials)-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-		<!-- Link your CSS files here (taken from class materials)-->
-
-		<!-- jQuery (taken from class materials)-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-
-		<!-- Popper.js (taken from class materials)-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-				  crossorigin="anonymous"></script>
-
-		<!-- Bootstap JS (taken from class materials)-->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfWpi1MquVdAyjUar5+76PVCmYl"
-				  crossorigin="anonymous"></script>
+		<!-- Add Custom CSS Here -->
+<link rel=""stylesheet" href="css/style.css"
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	</head>
 	<body>
@@ -52,7 +43,7 @@
 		<div class="container my-3 mx-5">
 			<!-- navbar with "Bootstrap Challenge" Title and 4 "links" aligned right.
 			 Here I created a navbar that will expanded when medium. with light text and background and rounded border-->
-			<nav class="navbar navbar-expand-md navbar-light bg-light border rounded">
+			<nav class="navbar navbar-expand-sm navbar-light bg-light border rounded">
 				<!-- the  navbar-brand gets our text in the nav bar -->
 				<a class="navbar-brand" href="#">Bootstrap Challenge</a>
 				<!--Here I created buttons that collapse in white. Again sample  -->
@@ -148,7 +139,7 @@
 
 		<!-- Here is the bottom navbar (found on www.getbootstrap.com) with adjusted float, not fixed,text is dark, with a dark background, and justified center. Not clear what the navbar-brand or href do but when I remove the "elements" the text is dark so I left them in! Additionally I can not get the bottom bar to extend to the sides of the page like I did the top bar.-->
 <div>
-	<nav class="navbar navbar-float-bottom navbar-dark bg-dark justify-content-center">
+	<nav class="navbar navbar-fixed-bottom navbar-dark bg-dark justify-content-center">
 		<a class="navbar-brand" href="#">Funny text at the bottom of the page!</a>
 	</nav>
 </div>
